@@ -5,8 +5,8 @@ import styles from './Header.module.css';
 
 const paths = [
   { label: 'Home', route: '/' },
-  { label: 'Projects', route: '/projects' },
   { label: 'Posts', route: '/posts' },
+  { label: 'Projects', route: '/projects' },
   { label: 'Connect', route: '/contact' },
 ];
 
@@ -23,7 +23,10 @@ export default function Header() {
           <ul className={styles.pages}>
             {paths.map(({ label, route }) => (
               <li key={route}>
-                <Link href={route}>{label}</Link>
+                <Link href={route}>
+                  <span className={styles.underline} />
+                  {label}
+                </Link>
               </li>
             ))}
           </ul>
