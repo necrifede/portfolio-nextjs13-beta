@@ -46,6 +46,10 @@ Required tasks to complete this site
 - [ ] Microfront ends - review content of friday March 10, 2023.
 - [ ] How to Improve the performance of a webpage
 
+## Project ideas
+
+- [ ] Create a color codes calculator
+
 # Some important resources
 
 Followed semactic from https://www.semrush.com/blog/semantic-html5-guide/

@@ -1,3 +1,5 @@
+import Section from "@/components/styled/Section";
+
 export default function PostsPage() {
-  return <div>This is posts page</div>;
+  return <Section>This is posts page</Section>;
 }

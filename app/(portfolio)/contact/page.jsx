@@ -1,6 +1,8 @@
+import Section from '@/components/styled/Section';
+
 export default function ConnectPage() {
   return (
-    <div>
+    <Section>
       <p>Also I feel interest for deployments of these libraries</p>
       <p>Entusiaste de la programacion funcional</p>
       <p>while I </p>
@@ -9,6 +11,6 @@ export default function ConnectPage() {
         On my free time I like to do jogging and visiting the sauna, The first time couse on me a huge impresion since
         saunas here are attended completely naked =)
       </p>
-    </div>
+    </Section>
   );
 }
