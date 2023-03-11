@@ -29,6 +29,7 @@ Required tasks to complete this site
 - [ ] add support for internationalization
 - [ ] _(menu option)_ add dark option
 - [x] Update error fallback page
+- [ ] Update footer
 
 ## Issues
 

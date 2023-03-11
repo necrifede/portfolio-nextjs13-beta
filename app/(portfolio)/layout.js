@@ -7,7 +7,7 @@ export default function Layout({ children }) {
       <header></header>
       <Navigation />
       <main className="antialiased  ">{children}</main>
-      <footer className={styles.footer}>&bull; Footer here &bull;</footer>
+      <footer className={styles.footer}>&bull; Developer using React.js, Next.js and tailwindcss &bull;</footer>
     </>
   );
 }
