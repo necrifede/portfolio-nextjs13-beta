@@ -11,7 +11,8 @@ export default function Error({ error, reset }) {
 
   return (
     <div className={styles.error}>
-      <p>Oh no, something went wrong... maybe refresh?</p>
+      <p>Oh no, something went wrong... </p>
+      <p>maybe refresh?</p>
     </div>
   );
 }
