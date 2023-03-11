@@ -2,9 +2,9 @@
 
 Here is documentation about a personal space.
 
-## Pendings
+# Pendings
 
-### All task to complete this project
+## All task to complete this project
 
 Required tasks to complete this site
 
@@ -16,6 +16,8 @@ Required tasks to complete this site
 - [ ] add social networks (github, linkedin, blog)
 - [ ] _(menu option)_ add proper components for projects, evidences, outlines.
 - [ ] add project tab content (loan calcuator, is IP trust, bolivian slides)
+  - [ ] retrieve information about certain host https://necrifede.github.io/host-analyser/
+  - [ ] A loan calculator implementation https://640b5dc1efb4b200b8c0b6ea--marvelous-phoenix-763476.netlify.app/
 - [ ] _(menu option)_ add posts tab
 - [ ] create at least one post about dates, content
 - [ ] define how to store posts
@@ -28,16 +30,45 @@ Required tasks to complete this site
 - [ ] _(menu option)_ add dark option
 - [x] Update error fallback page
 
-### Issues
+## Issues
 
 - [ ] on mobile devices, menu is not closed.
-### Posts ideas to create
+- [ ] on mobile devices, avatar picture on home page is on top of menu, open menu to see this behaviour.
+- [ ] on navigation menu add styles to see which item is selected.
+- [ ] on mobile, increase area of click for hamburger button.
+
+## Posts ideas to create
 
 - [ ] handling datetimes
 - [ ] CSS - selecting an element based on
+- [ ] Microfront ends
+- [ ] How to Improve the performance of a webpage
 
-### Task to improve this website, Nice to have
+# Some important resources
+
+Followed semactic from https://www.semrush.com/blog/semantic-html5-guide/
+
+Where:
+
+```html
+<body>
+  <header></header> <!-- empty header -->
+  <nav></nav>
+  <aside></aside> <!-- empty header -->
+  <main>
+    <section></section>
+    <article>
+      <figure></figure>
+      <p></p>
+    </article>
+  </main>
+  <footer></footer>
+</body>
+```
+
+# Task to improve this website, Nice to have
 
 here a list tasks to improve the site.
 
-- [ ] use of tailwindcss for improve styles
+- [x] use of tailwindcss for improve styles
+- [ ] Use shadow on main menu
