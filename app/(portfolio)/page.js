@@ -9,32 +9,37 @@ export default function Home() {
   return (
     <Section>
       <h1 className="font-bold text-3xl font-serif">Nestor Felipe</h1>
-      <p className="my-6 mr-20">{about()}</p>
-      <div className="flex flex-row justify-start">
+      <p className="my-10 md:mr-48">{about()}</p>
+      <div className="flex flex-row justify-start md:justify-center md:gap-8">
         <div className=" mx-10 text-neutral-500 dark:text-neutral-400">
-          <div className="flex flex-col items-center content-center gap-4">
-            <Link rel="noopener noreferrer" target="_blank" href="https://github.com/necrifede" className="">
+          <div className="flex flex-col items-center content-center gap-3">
+            <Link
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://github.com/necrifede"
+              className=" transition transform hover:scale-105"
+            >
               <GitHubIcon />
             </Link>
             <Link
               rel="noopener noreferrer"
               target="_blank"
               href="https://www.linkedin.com/in/nestor-felipe-a1252628"
-              className=""
+              className=" transition transform hover:scale-105"
             >
               <LinkedinIcon />
             </Link>
-            <Link href="mailto:felestor@protonmail.com" className="">
+            <Link href="mailto:felestor@protonmail.com" className="  transition transform hover:scale-105">
               <EnvelopeIcon />
             </Link>
           </div>
         </div>
         <Image
           alt={name}
-          className="rounded-full mx-5 grayscale hover:shadow-2xl transition transform hover:scale-105"
+          className="rounded-full mx-5 grayscale hover:shadow-2xl "
           src={avatar}
           placeholder="blur"
-          width={100}
+          width={120}
           priority
         />
       </div>
