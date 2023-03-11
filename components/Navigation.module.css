@@ -16,7 +16,7 @@
   color: white;
   top: 0;
   left: 0;
-  box-shadow: 0 1px 4px #fafafa;
+  box-shadow: 0 1px 8px #e8e8e8;
   z-index: 2;
 }
 
@@ -48,7 +48,7 @@
   gap: 1rem;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .menus .pages {
     gap: 0.2rem;
   }
@@ -61,12 +61,13 @@
     top: 0;
     right: 0;
     width: 100%;
-    padding-top: 65px;
+    padding-top: 80px;
     transition: all 0.2s;
   }
 
   .pages li {
-    background: #fcfcfc;
+    font-weight: bold;
+    background: #f6f6f6;
     opacity: 0.85;
     width: 100%;
     padding: 1rem;
@@ -105,7 +106,7 @@
 
 .hamburgericon:before {
   top: -8px;
-  width: 18px;
+  width: 19px;
 }
 
 .hamburgericon:after {
@@ -143,7 +144,7 @@
 }
 
 /* Action to hide and show menu on mobile */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .hamburgericon,
   .toogle {
     display: flex;
