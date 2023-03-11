@@ -24,7 +24,7 @@ export default function Home() {
             >
               <LinkedinIcon />
             </Link>
-            <Link href="/posts" className="">
+            <Link href="mailto:felestor@protonmail.com" className="">
               <EnvelopeIcon />
             </Link>
           </div>
