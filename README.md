@@ -10,10 +10,10 @@ Required tasks to complete this site
 
 - [x] refine logo
 - [x] Add menu
-- [ ] _(menu option)_ Add content for home
-- [ ] add small description about myself
-- [ ] add picture to home
-- [ ] add social networks (github, linkedin, blog)
+- [x] _(menu option)_ Add content for home
+- [x] add small description about myself
+- [x] add picture to home
+- [x] add social networks (github, linkedin, blog, mainto, instagram?, twitter?)
 - [ ] _(menu option)_ add proper components for projects, evidences, outlines.
 - [ ] add project tab content (loan calcuator, is IP trust, bolivian slides)
   - [ ] retrieve information about certain host https://necrifede.github.io/host-analyser/
@@ -35,13 +35,14 @@ Required tasks to complete this site
 - [ ] on mobile devices, menu is not closed.
 - [ ] on mobile devices, avatar picture on home page is on top of menu, open menu to see this behaviour.
 - [ ] on navigation menu add styles to see which item is selected.
+- [ ] fix the menu bar at the top. it shouldn't move with scroll.
 - [ ] on mobile, increase area of click for hamburger button.
 
 ## Posts ideas to create
 
 - [ ] handling datetimes
 - [ ] CSS - selecting an element based on
-- [ ] Microfront ends
+- [ ] Microfront ends - review content of friday March 10, 2023.
 - [ ] How to Improve the performance of a webpage
 
 # Some important resources
@@ -52,9 +53,11 @@ Where:
 
 ```html
 <body>
-  <header></header> <!-- empty header -->
+  <header></header>
+  <!-- empty header -->
   <nav></nav>
-  <aside></aside> <!-- empty header -->
+  <aside></aside>
+  <!-- empty header -->
   <main>
     <section></section>
     <article>
@@ -72,3 +75,4 @@ here a list tasks to improve the site.
 
 - [x] use of tailwindcss for improve styles
 - [ ] Use shadow on main menu
+- [ ] make the avatar animated
