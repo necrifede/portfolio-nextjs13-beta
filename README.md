@@ -29,7 +29,8 @@ Required tasks to complete this site
 - [ ] add support for internationalization
 - [ ] _(menu option)_ add dark option
 - [x] Update error fallback page
-- [ ] Update footer
+- [x] Update footer
+- [ ] Add cookie consents
 
 ## Issues
 
@@ -79,5 +80,5 @@ Where:
 here a list tasks to improve the site.
 
 - [x] use of tailwindcss for improve styles
-- [ ] Use shadow on main menu
+- [x] Use shadow box on main menu
 - [ ] make the avatar animated

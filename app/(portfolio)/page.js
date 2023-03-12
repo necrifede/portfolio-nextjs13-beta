@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 import { name, about, bio, avatar } from 'lib/info';
-import { ArrowIcon, EnvelopeIcon, GitHubIcon, LinkedinIcon, ViewsIcon } from '@/components/Icons';
+import { GitHubIcon, LinkedinIcon, EditIcon } from '@/components/Icons';
 import Link from 'next/link';
 import Section from '@/components/styled/Section';
 
@@ -29,8 +29,8 @@ export default function Home() {
             >
               <LinkedinIcon />
             </Link>
-            <Link href="mailto:felestor@protonmail.com" className="  transition transform hover:scale-105">
-              <EnvelopeIcon />
+            <Link href="#" className="transition transform hover:scale-105">
+              <EditIcon />
             </Link>
           </div>
         </div>
