@@ -21,7 +21,7 @@ Required tasks to complete this site
 - [ ] _(menu option)_ add posts tab
 - [ ] create at least one post about dates, content
 - [ ] define how to store posts
-- [ ] _(menu option)_ add 'get in touch' section
+- [x] _(menu option)_ add 'get in touch' section
 - [ ] downloadable resume?
 - [ ] awards
 - [ ] verify SEO
@@ -39,6 +39,9 @@ Required tasks to complete this site
 - [ ] on navigation menu add styles to see which item is selected.
 - [ ] fix the menu bar at the top. it shouldn't move with scroll.
 - [ ] on mobile, increase area of click for hamburger button.
+- [ ] Add proper validation to the form.
+- [ ] Use OAuth2 when sending mails.
+- [ ] Add privacy policy.
 
 ## Posts ideas to create
 
