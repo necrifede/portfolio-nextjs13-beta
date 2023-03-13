@@ -1,3 +1,6 @@
+'use client';
+
+import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './Navigation.module.css';
@@ -5,12 +8,23 @@ import styles from './Navigation.module.css';
 
 const paths = [
   { label: 'Home', route: '/' },
-  { label: 'Posts', route: '/posts' },
-  { label: 'Projects', route: '/projects' },
-  { label: 'Connect', route: '/contact' },
+  // { label: 'Posts', route: '/posts' },
+  // { label: 'Projects', route: '/projects' },
+  // { label: 'About', route: '/about' },
+  { label: 'Contact', route: '/contact' },
 ];
 
 export default function Navigation() {
+  const [checked, setChecked] = useState(false);
+
+  const handleClickItem = (event) => {
+    setChecked((previous) => false);
+  };
+
+  const handleChangeHamburger = (event) => {
+    setChecked((previous) => !previous);
+  };
+
   return (
     <nav className={styles.navigation}>
       <div>
@@ -22,20 +36,20 @@ export default function Navigation() {
         <ul className={styles.pages}>
           {paths.map(({ label, route }) => (
             <li key={route}>
-              <Link href={route}>
+              <Link href={route} onClick={handleClickItem}>
                 <span className={styles.underline} />
                 {label}
               </Link>
             </li>
           ))}
         </ul>
-        <ul className={styles.functions}>
+        <ul>
           {/* <li>
-              <ModeSwitcher />
-            </li> */}
+            <ModeSwitcher />
+          </li> */}
           <li>
             <div className={styles.hamburger}>
-              <input type="checkbox" className={styles.toogle} />
+              <input type="checkbox" className={styles.toogle} checked={checked} onChange={handleChangeHamburger} />
               <div className={styles.hamburgericon}></div>
             </div>
           </li>
