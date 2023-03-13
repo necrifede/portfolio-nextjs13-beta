@@ -21,7 +21,6 @@ export default function ContactPage() {
   const {
     register,
     handleSubmit,
-    watch,
     formState: { errors, isSubmitting },
   } = useForm({
     resolver: yupResolver(schema),
@@ -36,13 +35,16 @@ export default function ContactPage() {
         },
         body: JSON.stringify(data),
       });
-      console.log(await response.json());
+      if (response.status < 200 || response.status >= 300) {
+        throw new Error(`http status error: '${response.status}' `);
+      }
+
+      // const answer = await response.json();
 
       toast.success(`Hi ${data.name}, I will back to you soon.`, {
         description: <span className="text-xs opacity-50">{format(Date.now(), 'PPPPp')}</span>,
       });
     } catch (err) {
-      console.error('Error: ', err)
       toast.error(`Something went wrong, try refreshing...`, {
         description: <span className="text-xs opacity-50">{format(Date.now(), 'PPPPp')}</span>,
       });
