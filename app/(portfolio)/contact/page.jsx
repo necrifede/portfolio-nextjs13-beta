@@ -1,11 +1,11 @@
 'use client';
 
-import { useForm } from 'react-hook-form';
-import { yupResolver } from '@hookform/resolvers/yup';
-import * as yup from 'yup';
 import Section from '@/components/styled/Section';
-import { Toaster, toast } from 'sonner';
+import { yupResolver } from '@hookform/resolvers/yup';
 import { format } from 'date-fns';
+import { useForm } from 'react-hook-form';
+import { Toaster, toast } from 'sonner';
+import * as yup from 'yup';
 
 const schema = yup
   .object()
@@ -60,8 +60,11 @@ export default function ContactPage() {
             <div className="px-4 sm:px-0">
               <h3 className="text-base my-5 font-semibold leading-6 text-gray-900">{`Let's get in touch`}</h3>
               <p className="mt-1 text-sm text-gray-600">
-                Would you like to know more about me or have questions? I am looking forward to hearing from you and
+                Would you have questions? or would you like to share me something.  I am looking forward to hearing from you and
                 will be pleased to help you.
+              </p>
+              <p className="mt-1 text-sm text-gray-600">
+                Please find my <a className='text-blue-300 hover:text-blue-500' href='/nestor_felipe_cv.pdf'>Resume</a>
               </p>
             </div>
           </div>
