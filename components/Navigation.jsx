@@ -36,7 +36,7 @@ export default function Navigation() {
         <ul className={styles.pages}>
           {paths.map(({ label, route }) => (
             <li key={route}>
-              <Link href={route} onClick={handleClickItem}>
+              <Link href={route} onClick={handleClickItem} className={styles.growText}>
                 <span className={styles.underline} />
                 {label}
               </Link>

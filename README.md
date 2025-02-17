@@ -49,10 +49,12 @@ Required tasks to complete this site
 - [ ] CSS - selecting an element based on
 - [ ] Microfront ends - review content of friday March 10, 2023.
 - [ ] How to Improve the performance of a webpage
+- [ ] Implement one complete filter input
 
 ## Project ideas
 
 - [ ] Create a color codes calculator
+- [ ] Create scraper to improve filters from https://www.uradprace.cz/web/en/vacancies-search-3
 
 # Some important resources
 
