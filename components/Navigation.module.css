@@ -29,7 +29,6 @@
   position: relative;
   text-decoration: none;
   color: #000;
-  cursor: default;
 }
 
 .navigation li:hover {
@@ -166,6 +165,15 @@
   top: 20px;
   z-index: 2;
   transition: width 0.2s ease-in-out;
+}
+
+.growText {
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+.navigation .growText:hover {
+  font-weight: 700;
 }
 
 .navigation li:hover .underline {
