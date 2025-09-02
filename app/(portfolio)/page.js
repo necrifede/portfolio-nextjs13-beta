@@ -1,8 +1,8 @@
-import Image from 'next/image';
-import { name, about, bio, avatar } from '@/lib/info';
-import { GitHubIcon, LinkedinIcon, EditIcon } from '@/components/Icons';
-import Link from 'next/link';
+import { EditIcon, GitHubIcon, LinkedinIcon } from '@/components/Icons';
 import Section from '@/components/styled/Section';
+import { about, avatar, bio, name } from '@/lib/info';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
